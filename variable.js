@@ -21,3 +21,24 @@ let oneday = 60 * 60 * 1000 * 24;// converting into milliseconds
 let diffDays = Math.round((d - birthDate) / oneday);
 console.log(diffDays); // shows days from my birthday till now
 
+//activity 4
+let space1= 'x',space2= 'x',space3= 'o' ,space4= 'x'
+let space5= 'x', space6='o', space8='o' ,space9='0'
+
+let displayBoard = [`${space1}   |  |  `,
+    ` ${space1}  |  |  `,
+    "   |  |  "]
+let line = "-----------"
+//for loop to iterate array 3 times
+ for(let i=0; i<displayBoard.length; i++){
+    for(let j=0; j<displayBoard.length; j++){
+        console.log(displayBoard[i])
+    }
+    if(i<2){
+        console.log(line)
+    }
+    
+ }
+
+
+

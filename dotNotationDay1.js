@@ -14,16 +14,17 @@ console.log("    |  |");
 
 
 //Activity stretch
-let array = ["   |  |  ",
+let displayBoard = ["   |  |  ",
     "   |  |  ",
     "   |  |  "]
 let line = "-----------"
 //for loop to iterate array 3 times
-for (grid = 0; grid <= 3; grid++) {
-    console.log(array[grid]);
-    //iterate line two times
-    if (grid < 2) {
-        console.log(line);
+for(let i=0; i<displayBoard.length; i++){
+    for(let j=0; j<displayBoard.length; j++){
+        console.log(displayBoard[i])
     }
-}
-
+    if(i<2){
+        console.log(line)
+    }
+    
+ }
