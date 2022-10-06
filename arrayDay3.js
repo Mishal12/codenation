@@ -15,7 +15,7 @@ console.log(songsFav)
 // while(age<18){
 //     console.log("You are child")
 //     age++;
-// }
+// }//sssd
 
 // console.log("You are adult")
 
