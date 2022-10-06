@@ -26,7 +26,7 @@ let space1= 'x',space2= 'x',space3= 'o' ,space4= 'x'
 let space5= 'x', space6='o', space8='o' ,space9='0'
 
 let displayBoard = [`${space1}   |  |  `,
-    ` ${space1}  |  |  `,
+    `${space1}  |  |  `,
     "   |  |  "]
 let line = "-----------"
 //for loop to iterate array 3 times
